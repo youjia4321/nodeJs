@@ -1,0 +1,55 @@
+{% extends "base.html" %} {% block main %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>You can login in QQ or WeChat!</h1>
+            <div class="alert alert-success"> <strong>Well done!</strong> You successfully signed in as {{ name }}!
+            </div>
+            <p><a href="https://web2.qq.com/">QQ</a></p>
+            <p><a href="https://wx.qq.com/">WeChat</a></p>
+            <p><a href="https://qzone.qq.com/">QQZone</a></p>
+            
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Get more courses...</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">JavaScript</h3>
+                </div>
+                <div class="panel-body">
+                    <p>full-stack JavaScript course</p>
+                    <p><a target="_blank" href="http://www.runoob.com/js/js-tutorial.html">Read more</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Python</h3>
+                </div>
+                <div class="panel-body">
+                    <p>the latest Python Django course</p>
+                    <p><a target="_blank" href="http://djangobook.py3k.cn/2.0/">Read more</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">git</h3>
+                </div>
+                <div class="panel-body">
+                    <p>A course about git </p>
+                    <p><a target="_blank" href="http://www.runoob.com/git/git-tutorial.html">Read more</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
